@@ -1,0 +1,65 @@
+/* Importing Open Sans Condensed Google font */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+
+
+#digital-clock {
+ background-color: #b73636;
+ width: 35%;
+ margin: auto;
+ padding-top: 50px;
+ padding-bottom: 50px;
+ font-family: 'Open Sans Condensed', sans-serif;
+ font-size: 64px;
+ text-align: center;
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+body {
+           Background:#b73636;
+           Font-Family: Times;
+           color:#ffffff;
+       }
+       img.profilepic {
+           width:1000px;
+           height:500px;
+           display: block;
+           margin-left:auto;
+           margin-right:auto;
+       }
+       p {
+           font-size:20px;
+           color:#ffffff;
+       }
+       h2 {
+           font-size:25px;
+       }
+       h1{
+           Background-color:gray;
+       }
+       .navbar{
+           height:80px;
+           width: 100%;
+           background: rgba(0,0,0,0.);
+       }
+       .navbar ul{
+           float:right;
+           margin-right:20px;
+       }
+       .navbar ul li{
+           list-style:none;
+           margin:0 8px;
+           display: inline-block;
+           line-height:80px;
+           
+       }
+       .navbar ul li a{
+           text-decoration:none;
+           color:white;
+           font-size:20px;
+           padding:6px 13px;
+           font-family:'Roboto',sans-serif;
+           }
+        .navbar ul li a.active,
+        .navbar ul li a:hover{
+            background:gray;
+            border-radius: 2px;
+        }
